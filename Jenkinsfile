@@ -8,7 +8,7 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-        sh "python3 main.py ${params.operation} ${params.firstnumber} ${params.secondnumber}'"
+        sh "python3 main.py ${params.operation} ${params.firstnumber} ${params.secondnumber}"
       }
     }
   }
