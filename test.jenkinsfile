@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    paremeters{
+    parameters{
         booleanParam(defaultValue: false, description: "Enable Service", name: "myBoolean")
     }
     stages{
