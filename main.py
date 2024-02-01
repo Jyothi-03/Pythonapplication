@@ -10,7 +10,10 @@ def multiply(num1, num2):
     return num1 * num2
 
 def divide(num1, num2):
-    return num1 / num2
+    if num2!=0:
+        return num1 / num2
+    else:
+        return "Undefined"
 
 if len(sys.argv) != 4:
     print("Usage: python3 main.py <operation> <number1> <number2>")
